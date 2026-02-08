@@ -6,6 +6,8 @@ module.exports = merge(common, {
   mode: 'development',
   devServer: {
     hot: false,
+    port: 8080,
+    open: true,
     headers: {
       'Access-Control-Allow-Origin': '*',
       'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, PATCH, OPTIONS',
